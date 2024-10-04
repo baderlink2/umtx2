@@ -1,352 +1,168 @@
-﻿<!DOCTYPE html>
-
-<html>
+<html manifest="cache.appcache">
 
 <head>
-  	<title>PS5 Jailbreak 5.xx</title>
-    <meta charset="UTF-8">
-	    <link rel="stylesheet" type="text/css" href="style.css">  
-           <style type="text/css">
-           @import "bourbon";
-@import "https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:300,400";
-/* colors */
-/* tab setting */
-/* breakpoints */
-/* selectors relative to radio inputs */
-html {
-  width: 100%;
-  height: 100%;
-}
-body {
-  background: #efefef;
-  color: #333;
-  font-family: "Raleway";
-  height: 100%;
-}
-body h1 {
-  text-align: center;
-  color: #428bff;
-  font-weight: 300;
-  padding: 40px 0 20px 0;
-  margin: 0;
-}
-.tabs {
-  left: 50%;
-  transform: translateX(-50%);
-  position: relative;
-  background: null;
-  padding: 50px;
-  padding-bottom: 80px;
-  width: 70%;
-  height: 250px;
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-  border-radius: 5px;
-  min-width: 240px;
-}
-.tabs input[name="tab-control"] {
-  display: none;
-}
-.tabs .content section h2,
-.tabs ul li label {
-  font-family: "Montserrat";
-  font-weight: bold;
-  font-size: 18px;
-  color: #428bff;
-}
-.tabs ul {
-  list-style-type: none;
-  padding-left: 0;
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 10px;
-  justify-content: space-between;
-  align-items: flex-end;
-  flex-wrap: wrap;
-}
-.tabs ul li {
-  box-sizing: border-box;
-  flex: 1;
-  width: 25%;
-  padding: 0 10px;
-  text-align: center;
-}
-.tabs ul li label {
-  transition: all 0.3s ease-in-out;
-  color: #929daf;
-  padding: 5px auto;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: block;
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
-  white-space: nowrap;
-  -webkit-touch-callout: none;
-}
-.tabs ul li label br {
-  display: none;
-}
-.tabs ul li label svg {
-  fill: #929daf;
-  height: 1.2em;
-  vertical-align: bottom;
-  margin-right: 0.2em;
-  transition: all 0.2s ease-in-out;
-}
-.tabs ul li label:hover,
-.tabs ul li label:focus,
-.tabs ul li label:active {
-  outline: 0;
-  color: #bec5cf;
-}
-.tabs ul li label:hover svg,
-.tabs ul li label:focus svg,
-.tabs ul li label:active svg {
-  fill: #bec5cf;
-}
-.tabs .slider {
-  position: relative;
-  width: 25%;
-  transition: all 0.33s cubic-bezier(0.38, 0.8, 0.32, 1.07);
-}
-.tabs .slider .indicator {
-  position: relative;
-  width: 50px;
-  max-width: 100%;
-  margin: 0 auto;
-  height: 4px;
-  background: #428bff;
-  border-radius: 1px;
-}
-.tabs .content {
-  margin-top: 30px;
-}
-.tabs .content section {
-  display: none;
-  animation-name: content;
-  animation-direction: normal;
-  animation-duration: 0.3s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: 1;
-  line-height: 1.4;
-}
-.tabs .content section h2 {
-  color: #428bff;
-  display: none;
-}
-.tabs .content section h2::after {
-  content: "";
-  position: relative;
-  display: block;
-  width: 30px;
-  height: 3px;
-  background: #428bff;
-  margin-top: 5px;
-  left: 1px;
-}
-.tabs
-  input[name="tab-control"]:nth-of-type(1):checked
-  ~ ul
-  > li:nth-child(1)
-  > label {
-  cursor: default;
-  color: #428bff;
-}
-.tabs
-  input[name="tab-control"]:nth-of-type(1):checked
-  ~ ul
-  > li:nth-child(1)
-  > label
-  svg {
-  fill: #428bff;
-}
-@media (max-width: 600px) {
-  .tabs
-    input[name="tab-control"]:nth-of-type(1):checked
-    ~ ul
-    > li:nth-child(1)
-    > label {
-    background: rgba(0, 0, 0, 0.08);
-  }
-}
-.tabs input[name="tab-control"]:nth-of-type(1):checked ~ .slider {
-  transform: translateX(0%);
-}
-.tabs
-  input[name="tab-control"]:nth-of-type(1):checked
-  ~ .content
-  > section:nth-child(1) {
-  display: block;
-}
-.tabs
-  input[name="tab-control"]:nth-of-type(2):checked
-  ~ ul
-  > li:nth-child(2)
-  > label {
-  cursor: default;
-  color: #428bff;
-}
-.tabs
-  input[name="tab-control"]:nth-of-type(2):checked
-  ~ ul
-  > li:nth-child(2)
-  > label
-  svg {
-  fill: #428bff;
-}
-@media (max-width: 600px) {
-  .tabs
-    input[name="tab-control"]:nth-of-type(2):checked
-    ~ ul
-    > li:nth-child(2)
-    > label {
-    background: rgba(0, 0, 0, 0.08);
-  }
-}
-.tabs input[name="tab-control"]:nth-of-type(2):checked ~ .slider {
-  transform: translateX(100%);
-}
-.tabs
-  input[name="tab-control"]:nth-of-type(2):checked
-  ~ .content
-  > section:nth-child(2) {
-  display: block;
-}
-.tabs
-  input[name="tab-control"]:nth-of-type(3):checked
-  ~ ul
-  > li:nth-child(3)
-  > label {
-  cursor: default;
-  color: #428bff;
-}
-.tabs
-  input[name="tab-control"]:nth-of-type(3):checked
-  ~ ul
-  > li:nth-child(3)
-  > label
-  svg {
-  fill: #428bff;
-}
-@media (max-width: 600px) {
-  .tabs
-    input[name="tab-control"]:nth-of-type(3):checked
-    ~ ul
-    > li:nth-child(3)
-    > label {
-    background: rgba(0, 0, 0, 0.08);
-  }
-}
-.tabs input[name="tab-control"]:nth-of-type(3):checked ~ .slider {
-  transform: translateX(200%);
-}
-.tabs
-  input[name="tab-control"]:nth-of-type(3):checked
-  ~ .content
-  > section:nth-child(3) {
-  display: block;
-}
-.tabs
-  input[name="tab-control"]:nth-of-type(4):checked
-  ~ ul
-  > li:nth-child(4)
-  > label {
-  cursor: default;
-  color: #428bff;
-}
-.tabs
-  input[name="tab-control"]:nth-of-type(4):checked
-  ~ ul
-  > li:nth-child(4)
-  > label
-  svg {
-  fill: #428bff;
-}
-@media (max-width: 600px) {
-  .tabs
-    input[name="tab-control"]:nth-of-type(4):checked
-    ~ ul
-    > li:nth-child(4)
-    > label {
-    background: rgba(0, 0, 0, 0.08);
-  }
-}
-.tabs input[name="tab-control"]:nth-of-type(4):checked ~ .slider {
-  transform: translateX(300%);
-}
-.tabs
-  input[name="tab-control"]:nth-of-type(4):checked
-  ~ .content
-  > section:nth-child(4) {
-  display: block;
-}
-@keyframes content {
-  from {
-    opacity: 0;
-    transform: translateY(5%);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0%);
-  }
-}
-@media (max-width: 1000px) {
-  .tabs ul li label {
-    white-space: initial;
-  }
-  .tabs ul li label br {
-    display: initial;
-  }
-  .tabs ul li label svg {
-    height: 1.5em;
-  }
-}
-@media (max-width: 600px) {
-  .tabs ul li label {
-    padding: 5px;
-    border-radius: 5px;
-  }
-  .tabs ul li label span {
-    display: none;
-  }
-  .tabs .slider {
-    display: none;
-  }
-  .tabs .content {
-    margin-top: 20px;
-  }
-  .tabs .content section h2 {
-    display: block;
-  }
-}
+    <title>PS5 UMTX Jailbreak</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css">
 
-   </style>
+    <script defer src="int64.js"></script>
+    <script defer src="rop.js"></script>
+    <script defer src="exploit.js"></script>
+    <script defer src="custom_host_stuff.js"></script>
+    <script defer src="appcache_handler.js"></script>
+    <script defer src="module/utils.js"></script>
+    <script defer src="module/constants.js"></script>
+    <script defer src="module/int64.js"></script>
+    <script defer src="module/mem.js"></script>
+    <script defer src="module/memtools.js"></script>
+    <script defer src="module/rw.js"></script>
+    <script defer src="module/syscalls.js"></script>
+    <script defer src="webkit_psfree.js"></script>
+    <script defer src="webkit_fontface.js"></script>
+    <script>
+        addEventListener('unhandledrejection', (event) => {
+            const reason = event.reason;
+            // We log the line and column numbers as well since some exceptions (like
+            // SyntaxError) do not show it in the stack trace.
+            alert(
+                `${reason}\n`
+                + `${reason.sourceURL}:${reason.line}:${reason.column}\n`
+                + `${reason.stack}`
+            );
+            //alert(reason);
+            throw reason;
+        });
+        window.addEventListener('load', function () {
+            onload_setup();
+        }, false);
+    </script>
+    <style>
+        .log {
+            display: block;
+            unicode-bidi: embed;
+            font-family: monospace;
+            white-space: pre;
+            font-size: 18px;
+            width: 100%;
+            height: 80%;
+            margin-top: 50px;
+            border: none;
+        }
+    </style>
 </head>
 
-<body span style="background-color: rgb(31, 30, 31)"></span>
-<h1>UMTX PS5 5.XX</h1>
-<div class="tabs">
+<body>
+    <svg style="display: none" version="2.0">
+        <defs>
+            <symbol id="delete-icon" viewBox="0 -960 960 960">
+                <path
+                    d="m376-300 104-104 104 104 56-56-104-104 104-104-56-56-104 104-104-104-56 56 104 104-104 104 56 56Zm-96 180q-33 0-56.5-23.5T200-200v-520h-40v-80h200v-40h240v40h200v80h-40v520q0 33-23.5 56.5T680-120H280Zm400-600H280v520h400v-520Zm-400 0v520-520Z" />
+            </symbol>
+            <symbol id="forward-arrow-icon" viewBox="0 -960 960 960" >
+                <path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/>
+            </symbol>
+            
+        </defs>
+    </svg>
 
-  <input type="radio" id="tab1" name="tab-control" checked>
-  <input type="radio" id="tab2" name="tab-control">
-  <input type="radio" id="tab3" name="tab-control">
-  <input type="radio" id="tab4" name="tab-control">
-  <ul>
-    <li title="Delivery Contents"><label for="tab2" role="button"><br><span>PS5 1.xx - 5.xx</span></label></li>
-    <li title="Shipping"><label for="tab3" role="button"><br><span>soon</span></label></li>
-    <li title="Returns"><label for="tab4" role="button"><br><span>soon</span></label></li>
-  </ul>
-    <section>
-      <h2>soon</h2>
+    <div id="toast-container"></div>
+    
+    <div id="redirector-view"
+        style="min-width: 100%; max-width: 100%; position: absolute; top: 0; left: -100%; min-height: 100%; max-height: 100%;">
+        <div style="overflow-y: scroll; width: 100%;max-height: 100vh;min-height: 100vh;" id="redirector-view-inner">
+            <h3 style="text-align: center;">Redirector</h3>
+            <div style="padding: 25px;padding-top: 0; display: flex;">
+                <input id="redirector-input" type="text" value="http://"
+                    style="width: 100%; border-radius: 10px; padding: 15px; background-color: #223; color: #fff; border-color: #334; font-size: 20px;" />
+                <a class="btn icon-btn" style="width: 100px;" tabindex="0" onclick="redirectorGo()">
+                    <svg width="32px" height="32px" fill="#ddd">
+                        <use href="#forward-arrow-icon" />
+                    </svg>
+                </a>
+            </div>
 
-    </section>
-    <section>
-      <h2>soon</h2>
+            <div style="display: flex; flex-direction: row; max-width: 100%; padding-left: 50px; padding-right: 50px;">
+                <div style="width: 60%; margin-right: 35px; " id="redirector-pinned"></div>
+                <div style="width: 1px; background-color: #557; margin-top: 10px;"></div>
+                <div style="width: 40%; margin-left: 35px; " id="redirector-history"></div>
+            </div>
+        </div>
+    </div>
 
-    </section>
-  </div>
-</div>
+    <div id="center-view" style="position: absolute; top: 0; left: 0; width: 100%; min-height: 100%;">
 
-</p>
+        <div style="margin-top: 15px; position: absolute; width: 100%;">
+            <h1 style="text-align: center;">PS5 UMTX Jailbreak (1.xx-5.xx)</h1>
+            <p id="current-fw" class="text-secondary"
+                style="text-align: center; margin-bottom: 8px; padding-bottom: 0;">
+            </p>
 
+            <p id="listening-ip" class="text-secondary" style="text-align: center; margin-top: 0; padding-top: 0;">
+                <br />
+            </p>
+        </div>
+        <div style="position: absolute; margin: 20px; margin-right:28px; bottom: 0; right: 0px;" class="opacity-transition" id="l2-redirect">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 35px;">
+                <div >
+                    <span style="vertical-align: middle;display: inline-block;                ">
+                        <svg viewbox="0 0 79 61" xmlns="http://www.w3.org/2000/svg" style="width: 32px; height:32px;">
+                            <rect x="0" y="0" width="79" height="61" rx="13" ry="13" fill="#bdc0c2" />
+                            <text x="50%" y="50%" dy="17.5px" text-anchor="middle" fill="#4e4e4e" font-size="50"
+                                font-weight="bold">L2</text>
+                        </svg>
+                    </span>
+                    <span
+                        style="font-size: 18px; vertical-align: middle;display: inline-block; margin-left: 8px; font-weight: bold; color: #fff;">Redirect</span>
+                </div>
+                <div >
+                    <span style="vertical-align: middle;display: inline-block;                ">
+                        <svg viewbox="0 0 79 61" xmlns="http://www.w3.org/2000/svg" style="width: 32px; height:32px;">
+                            <rect x="0" y="0" width="79" height="61" rx="13" ry="13" fill="#bdc0c2" />
+                            <text x="50%" y="50%" dy="17.5px" text-anchor="middle" fill="#4e4e4e" font-size="50"
+                                font-weight="bold">R2</text>
+                        </svg>
+                    </span>
+                    <span
+                        style="font-size: 18px; vertical-align: middle;display: inline-block; margin-left: 8px; font-weight: bold; color: #fff;">Options</span>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div id="console-parent" class="opacity-transition"
+                style="display: flex; justify-content: center; align-items: center; position: absolute; top: 0;left: 0; width: 100%; height: 100%;">
+                <textarea id="console" class="log"></textarea>
+            </div>
+
+            <div id="run-jb-parent" class="opacity-transition"
+                style="display: flex; justify-content: center; align-items: center; position: absolute; top: 0;left: 0; width: 100%; height: 100%;">
+                <a tabindex="0" class="btn" style="max-width: 50%;" id="run-jb" onclick="runJailbreak()">Jailbreak</a>
+            </div>
+
+            <center style="position: fixed;bottom: 0;width: 100%;margin-bottom: 10px;font-size: 13px;"
+                class="info opacity-transition" id="credits">
+                <b id="version">v1.2</b><br />
+                <span>creds & greetz</span>
+                <h3>
+                    <a href="https://x.com/fail0verflow">@fail0verflow</a>, 
+                    <a href="https://twitter.com/flat_z">@flat_z</a>, 
+                    <a href="https://twitter.com/SpecterDev">@SpecterDev</a>, 
+                    ChendoChap, 
+                    SlidyBat, 
+                    abc/psfree, 
+                    <br />
+                    idlesauce, 
+                    <a href="https://x.com/znullptr">@znullptr</a>, 
+                    <a href="https://twitter.com/notnotzecoxao">@notnotzecoxao</a>, 
+                    <a href="https://twitter.com/SocraticBliss">@SocraticBliss</a>, 
+                    <a href="https://github.com/john-tornblom">John Tornblom</a>, 
+                    <a href="https://discord.gg/kbrzGuH3F6">PS5 R&D Discord</a>
+                </h3>
+            </center>
+        </div>
+    </div>
+    <script>
+        document.getElementById("console-parent").style.opacity = 0;
+    </script>
 </body>
 </html>
