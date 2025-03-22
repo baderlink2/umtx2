@@ -86,9 +86,9 @@ const payload_map = [
         supportedFirmwares: ["3.", "4."]
     },
     {
-        displayTitle: "ETAHEN BADERLINK TEST", 
-        description: "AIO HEN 5.50",
-        fileName: "etaHEN20b550.bin",
+        displayTitle: "ETAHEN+KSTUFF", 
+        description: "5.00 To 5.50",
+        fileName: "etahen.bin",
         author: "LightningMods",
         projectSource: "https://github.com/LightningMods/etaHEN",
         binarySource: "https://github.com/LightningMods/etaHEN/releases/download/1.9b/etaHEN.bin",
