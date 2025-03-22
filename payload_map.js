@@ -86,14 +86,15 @@ const payload_map = [
         supportedFirmwares: ["3.", "4."]
     },
     {
-        displayTitle: "websrv",
-        description: "Custom homebrew loader. Runs on port 8080.",
-        fileName: "websrv.elf",
-        author: "john-tornblom",
-        projectSource: "https://github.com/ps5-payload-dev/websrv",
-        binarySource: "https://github.com/ps5-payload-dev/pacbrew-repo/actions/runs/13686166926",
-        version: "0.20",
-        toPort: 9021
+        displayTitle: "ETAHEN BADERLINK TEST", 
+        description: "AIO HEN 5.50",
+        fileName: "etaHEN20b550.bin",
+        author: "LightningMods",
+        projectSource: "https://github.com/LightningMods/etaHEN",
+        binarySource: "https://github.com/LightningMods/etaHEN/releases/download/1.9b/etaHEN.bin",
+        version: "2.0b",
+		supportedFirmwares: ["5.50"],
+		toPort: 9021
     },
     {
         displayTitle: "ftpsrv",
