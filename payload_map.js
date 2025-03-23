@@ -55,7 +55,7 @@ const payload_map = [
     },
     {
         displayTitle: "Etahen+Kstuff", 
-        description: "5.00 To 5.50",
+        description: "For 5.50",
         fileName: "etahen_kstuff.bin",
         author: "LightningMods",
         projectSource: "https://github.com/LightningMods/etaHEN",
@@ -106,15 +106,15 @@ const payload_map = [
         toPort: 9021
     },
     {
-        displayTitle: "Kstuff Only",
-        description: "FPKG enabler PS4",
-        fileName: "kstuff.elf",
-        author: "sleirsgoevy, john-tornblom, EchoStretch, buzzer-re, BestPig, LightningMods, zecoxao",
-        projectSource: "https://github.com/EchoStretch/kstuff",
-        binarySource: "https://github.com/EchoStretch/kstuff/releases/download/5xx-support-v1/kstuff.elf",
-        version: "081f53b",
-        supportedFirmwares: ["3.", "4.", "5."],
-        toPort: 9021
+        displayTitle: "Etahen+Kstuff", 
+        description: "For 5.10",
+        fileName: "etahen_kstuff.bin",
+        author: "LightningMods",
+        projectSource: "https://github.com/LightningMods/etaHEN",
+        binarySource: "https://github.com/LightningMods/etaHEN/releases/download/1.9b/etaHEN.bin",
+        version: "2.0b",
+		supportedFirmwares: ["5.50"],
+		toPort: 9021
     },
     {
         displayTitle: "shsrv",
