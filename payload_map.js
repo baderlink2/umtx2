@@ -116,14 +116,14 @@ const payload_map = [
         toPort: 9021
     },
     {
-        displayTitle: "shsrv",
-        description: "Telnet shell server. Runs on port 2323.",
-        fileName: "shsrv.elf",
-        author: "john-tornblom",
-        projectSource: "https://github.com/ps5-payload-dev/shsrv",
-        binarySource: "https://github.com/ps5-payload-dev/pacbrew-repo/actions/runs/13686166926",
-        version: "0.13.1",
-        toPort: 9021
+        displayTitle: "kstuff 5.XX",
+        description: "FPKG enabler PS4",
+        fileName: "kstuff.elf",
+        author: "sleirsgoevy, john-tornblom, EchoStretch, buzzer-re, BestPig, LightningMods, zecoxao",
+        projectSource: "https://github.com/EchoStretch/kstuff",
+        binarySource: "https://github.com/EchoStretch/kstuff/releases/download/5xx-support-v1/kstuff.elf",
+        version: "081f53b",
+        supportedFirmwares: ["3.", "4.", "5."],
     },
     {
         displayTitle: "gdbsrv",
