@@ -86,14 +86,14 @@ const payload_map = [
         supportedFirmwares: ["3.", "4."]
     },
     {
-        displayTitle: "websrv",
-        description: "Custom homebrew loader. Runs on port 8080.",
-        fileName: "websrv.elf",
-        author: "john-tornblom",
-        projectSource: "https://github.com/ps5-payload-dev/websrv",
-        binarySource: "https://github.com/ps5-payload-dev/pacbrew-repo/actions/runs/13686166926",
-        version: "0.20",
-        toPort: 9021
+        displayTitle: "ps5-kstuff FPKG",
+        description: "FPKG enabler PS4",
+        fileName: "kstuff.elf",
+        author: "sleirsgoevy, john-tornblom, EchoStretch, buzzer-re, BestPig, LightningMods, zecoxao",
+        projectSource: "https://github.com/EchoStretch/kstuff",
+        binarySource: "https://github.com/EchoStretch/kstuff/releases/download/5xx-support-v1/kstuff.elf",
+        version: "081f53b",
+        supportedFirmwares: ["3.", "4.", "5."],
     },
     {
         displayTitle: "ftpsrv",
