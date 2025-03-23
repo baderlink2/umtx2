@@ -1,5 +1,5 @@
 CACHE MANIFEST 
-#VERSION 1.2 
+#VERSION 1.1 
 
 CACHE: 
 custom_host_stuff.js
@@ -41,11 +41,11 @@ offsets\5.00.js
 offsets\5.02.js
 offsets\5.10.js
 offsets\5.50.js
-payloads\etahen_kstuff.bin
-payloads\etahen_kstuff10.bin
 payloads\byepervisor.elf
 payloads\elfldr.elf
 payloads\etaHEN.bin
+payloads\etahenkstuff.bin
+payloads\etahen_kstuff10.bin
 payloads\ftpsrv.elf
 payloads\gdbsrv.elf
 payloads\klogsrv.elf

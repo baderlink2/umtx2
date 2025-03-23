@@ -56,13 +56,13 @@ const payload_map = [
     {
         displayTitle: "Etahen+Kstuff", 
         description: "For 5.50",
-        fileName: "etahen_kstuff.bin",
+        fileName: "etahenkstuff.bin",
         author: "LightningMods",
         projectSource: "https://github.com/LightningMods/etaHEN",
         binarySource: "https://github.com/LightningMods/etaHEN/releases/download/1.9b/etaHEN.bin",
         version: "2.0b",
-		supportedFirmwares: ["5.50"],
-		toPort: 9021
+		    supportedFirmwares: ["5.50"],
+		    toPort: 9021
     },
     {
         displayTitle: "Byepervisor HEN",
