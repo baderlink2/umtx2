@@ -86,24 +86,26 @@ const payload_map = [
         supportedFirmwares: ["3.", "4."]
     },
     {
-        displayTitle: "websrv",
-        description: "Custom homebrew loader. Runs on port 8080.",
-        fileName: "websrv.elf",
-        author: "john-tornblom",
-        projectSource: "https://github.com/ps5-payload-dev/websrv",
-        binarySource: "https://github.com/ps5-payload-dev/pacbrew-repo/actions/runs/13686166926",
-        version: "0.20",
+        displayTitle: "kstuff Only",
+        description: "FPKG enabler",
+        fileName: "kstuff.elf",
+        author: "sleirsgoevy, john-tornblom, EchoStretch, buzzer-re, BestPig, LightningMods, zecoxao",
+        projectSource: "https://github.com/EchoStretch/kstuff",
+        binarySource: "https://github.com/EchoStretch/kstuff/releases/download/5xx-support-v1/kstuff.elf",
+        version: "081f53b",
+        supportedFirmwares: ["3.", "4.", "5."],
         toPort: 9021
     },
     {
-        displayTitle: "ftpsrv",
-        description: "FTP server. Runs on port 2121.",
-        fileName: "ftpsrv.elf",
-        author: "john-tornblom",
-        projectSource: "https://github.com/ps5-payload-dev/ftpsrv",
-        binarySource: "https://github.com/ps5-payload-dev/pacbrew-repo/actions/runs/13686166926",
-        version: "0.11.2",
-        toPort: 9021
+        displayTitle: "ETAHEN ONLY", 
+        description: "For 5.XX",
+        fileName: "1etaHEN.bin",
+        author: "LightningMods",
+        projectSource: "https://github.com/LightningMods/etaHEN",
+        binarySource: "https://github.com/LightningMods/etaHEN/releases/download/1.9b/etaHEN.bin",
+        version: "2.0b",
+		    supportedFirmwares: ["5.50"],
+		    toPort: 9021
     },
     {
         displayTitle: "Etahen+Kstuff", 

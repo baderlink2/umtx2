@@ -43,10 +43,10 @@ offsets\5.10.js
 offsets\5.50.js
 payloads\byepervisor.elf
 payloads\elfldr.elf
+payloads\1etaHEN.bin
 payloads\etaHEN.bin
 payloads\etahenkstuff.bin
 payloads\etahen_kstuff10.bin
-payloads\ftpsrv.elf
 payloads\gdbsrv.elf
 payloads\klogsrv.elf
 payloads\kstuff.elf
