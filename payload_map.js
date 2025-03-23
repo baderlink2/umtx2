@@ -54,9 +54,9 @@ const payload_map = [
         toPort: 9021
     },
     {
-        displayTitle: "Etahen+Kstuff V1", 
-        description: "For 5.XX",
-        fileName: "etahenkstuff.bin",
+        displayTitle: "Etahen+Kstuff NEW", 
+        description: "For 5.50",
+        fileName: "etahen550.bin",
         author: "LightningMods",
         projectSource: "https://github.com/LightningMods/etaHEN",
         binarySource: "https://github.com/LightningMods/etaHEN/releases/download/1.9b/etaHEN.bin",
@@ -97,9 +97,9 @@ const payload_map = [
         toPort: 9021
     },
     {
-        displayTitle: "Etahen+ Kstuff V2", 
-        description: "For 5.XX",
-        fileName: "1etaHEN.bin",
+        displayTitle: "Etahen+ Kstuff NEW", 
+        description: "For All 5.XX",
+        fileName: "etahen5xx.bin",
         author: "LightningMods",
         projectSource: "https://github.com/LightningMods/etaHEN",
         binarySource: "https://github.com/LightningMods/etaHEN/releases/download/1.9b/etaHEN.bin",
@@ -108,14 +108,14 @@ const payload_map = [
 		    toPort: 9021
     },
     {
-        displayTitle: "Etahen+Kstuff", 
+        displayTitle: "Etahen+ Kstuff NEW", 
         description: "For 5.10",
-        fileName: "etahen_kstuff10.bin",
+        fileName: "etahen510.bin",
         author: "LightningMods",
         projectSource: "https://github.com/LightningMods/etaHEN",
         binarySource: "https://github.com/LightningMods/etaHEN/releases/download/1.9b/etaHEN.bin",
         version: "2.0b",
-		    supportedFirmwares: ["5.10"],
+		    supportedFirmwares: ["5.50"],
 		    toPort: 9021
     },
     {
