@@ -108,15 +108,14 @@ const payload_map = [
 		    toPort: 9021
     },
     {
-        displayTitle: "Etahen+ Kstuff NEW", 
-        description: "For 5.10",
-        fileName: "etahen510.bin",
-        author: "LightningMods",
-        projectSource: "https://github.com/LightningMods/etaHEN",
-        binarySource: "https://github.com/LightningMods/etaHEN/releases/download/1.9b/etaHEN.bin",
-        version: "2.0b",
-		    supportedFirmwares: ["5.00"],
-		    toPort: 9021
+        displayTitle: "klogsrv",
+        description: "Klog server. Runs on port 3232.",
+        fileName: "klogsrv.elf",
+        author: "john-tornblom",
+        projectSource: "https://github.com/ps5-payload-dev/klogsrv",
+        binarySource: "https://github.com/ps5-payload-dev/pacbrew-repo/actions/runs/13686166926",
+        version: "0.5.2",
+        toPort: 9021
     },
     {
         displayTitle: "shsrv",
