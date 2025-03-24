@@ -98,7 +98,7 @@ const payload_map = [
     },
     {
         displayTitle: "Etahen+ Kstuff NEW", 
-        description: "For All 5.XX",
+        description: "For 5.10",
         fileName: "etahen5xx.bin",
         author: "LightningMods",
         projectSource: "https://github.com/LightningMods/etaHEN",
