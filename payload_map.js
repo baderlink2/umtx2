@@ -86,7 +86,7 @@ const payload_map = [
         supportedFirmwares: ["3.", "4."]
     },
     {
-        displayTitle: "kstuff Only",
+        displayTitle: "kstuff Only V1.2",
         description: "FPKG enabler",
         fileName: "kstuff.elf",
         author: "sleirsgoevy, john-tornblom, EchoStretch, buzzer-re, BestPig, LightningMods, zecoxao",
