@@ -97,9 +97,9 @@ const payload_map = [
         toPort: 9021
     },
     {
-        displayTitle: "Etahen+ Kstuff NEW", 
+        displayTitle: "Etahen+ Kstuff NEW V2", 
         description: "For 5.10",
-        fileName: "etahen5xx.bin",
+        fileName: "etahen510.bin",
         author: "LightningMods Date 29-03-2025",
         projectSource: "https://github.com/LightningMods/etaHEN",
         binarySource: "https://github.com/LightningMods/etaHEN/releases/download/1.9b/etaHEN.bin",
