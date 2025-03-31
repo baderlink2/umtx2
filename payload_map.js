@@ -54,10 +54,10 @@ const payload_map = [
         toPort: 9021
     },
     {
-        displayTitle: "Etahen+Kstuff NEW V2", 
+        displayTitle: "Etahen+Kstuff NEW Last", 
         description: "For 5.50",
         fileName: "etahen550.bin",
-        author: "LightningMods Date 29-03-2025",
+        author: "LightningMods Date 30-03-2025",
         projectSource: "https://github.com/LightningMods/etaHEN",
         binarySource: "https://github.com/LightningMods/etaHEN/releases/download/1.9b/etaHEN.bin",
         version: "2.0b",
@@ -86,8 +86,8 @@ const payload_map = [
         supportedFirmwares: ["3.", "4."]
     },
     {
-        displayTitle: "kstuff Only V1.3",
-        description: "FPKG enabler Fix Bypass",
+        displayTitle: "kstuff Only V1.3 last",
+        description: "FPKG enabler Fix Bypass 30-03-25",
         fileName: "kstuff.elf",
         author: "sleirsgoevy, john-tornblom, EchoStretch, buzzer-re, BestPig, LightningMods, zecoxao",
         projectSource: "https://github.com/EchoStretch/kstuff",
@@ -97,10 +97,10 @@ const payload_map = [
         toPort: 9021
     },
     {
-        displayTitle: "Etahen+Kstuff NEW V2", 
+        displayTitle: "Etahen+Kstuff NEW last", 
         description: "For 5.10",
         fileName: "etahen510.bin",
-        author: "LightningMods Date 29-03-2025",
+        author: "LightningMods Date 30-03-2025",
         projectSource: "https://github.com/LightningMods/etaHEN",
         binarySource: "https://github.com/LightningMods/etaHEN/releases/download/1.9b/etaHEN.bin",
         version: "2.0b",
