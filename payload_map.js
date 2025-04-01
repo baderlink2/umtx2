@@ -86,17 +86,6 @@ const payload_map = [
         supportedFirmwares: ["3.", "4."]
     },
     {
-        displayTitle: "kstuff Only V1.3 last",
-        description: "FPKG enabler Fix Bypass 30-03-25",
-        fileName: "kstuff.elf",
-        author: "sleirsgoevy, john-tornblom, EchoStretch, buzzer-re, BestPig, LightningMods, zecoxao",
-        projectSource: "https://github.com/EchoStretch/kstuff",
-        binarySource: "https://github.com/EchoStretch/kstuff/releases/download/5xx-support-v1/kstuff.elf",
-        version: "081f53b",
-        supportedFirmwares: ["3.", "4.", "5."],
-        toPort: 9021
-    },
-    {
         displayTitle: "Etahen+Kstuff NEW last", 
         description: "For 5.10",
         fileName: "etahen510.bin",
@@ -106,6 +95,17 @@ const payload_map = [
         version: "2.0b",
 		    supportedFirmwares: ["5.10"],
 		    toPort: 9021
+    },
+    {
+        displayTitle: "kstuff Only V1.3 last",
+        description: "FPKG enabler Fix Bypass 30-03-25",
+        fileName: "kstuff.elf",
+        author: "sleirsgoevy, john-tornblom, EchoStretch, buzzer-re, BestPig, LightningMods, zecoxao",
+        projectSource: "https://github.com/EchoStretch/kstuff",
+        binarySource: "https://github.com/EchoStretch/kstuff/releases/download/5xx-support-v1/kstuff.elf",
+        version: "081f53b",
+        supportedFirmwares: ["3.", "4.", "5."],
+        toPort: 9021
     },
     {
         displayTitle: "klogsrv",
