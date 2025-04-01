@@ -180,8 +180,8 @@ const payload_map = [
     },
     {
         // https://github.com/Storm21CH/PS5_Browser_appCache_remove
-        displayTitle: "Browser appcache remover",
-        description: "Deletes for only the current user in webkit-only mode",
+        displayTitle: "Remove Cache For Clean Browser",
+        description: "Clean all old Cache 1.xx-5.xx",
         fileName: "",
         author: "Storm21CH, idlesauce",
         projectSource: "",
