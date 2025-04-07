@@ -97,13 +97,13 @@ const payload_map = [
 		    toPort: 9021
     },
     {
-        displayTitle: "kstuff Only V1.3 last",
-        description: "FPKG enabler Fix Bypass 30-03-25",
-        fileName: "kstuff.elf",
-        author: "sleirsgoevy, john-tornblom, EchoStretch, buzzer-re, BestPig, LightningMods, zecoxao",
-        projectSource: "https://github.com/EchoStretch/kstuff",
-        binarySource: "https://github.com/EchoStretch/kstuff/releases/download/5xx-support-v1/kstuff.elf",
-        version: "081f53b",
+        displayTitle: "Etahen+Kstuff NEW last",
+        description: "For 5.00-5.02",
+        fileName: "etahen5xx.bin",
+        author: "LightningMods Date 30-03-2025",
+        projectSource: "https://github.com/LightningMods/etaHEN",
+        binarySource: "https://github.com/LightningMods/etaHEN/releases/download/1.9b/etaHEN.bin",
+        version: "2.0b",
         supportedFirmwares: ["3.", "4.", "5."],
         toPort: 9021
     },
