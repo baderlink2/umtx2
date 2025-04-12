@@ -34,15 +34,15 @@ const payload_map = [
         displayTitle: "ETAHEN+KSTUFF ",
         description: "FOR 1.XXTo 5.XX",
         fileName: "etaHEN.bin",
-        author: "LightningMods, Buzzer, sleirsgoevy, ChendoChap, astrelsky, illusion, CTN, SiSTR0, Nomadic",
+        author: "LightningMods Date 30-03-2025",
         projectSource: "https://github.com/etaHEN/etaHEN",
         binarySource: "https://github.com/etaHEN/etaHEN/blob/360e7c0d2dddf4f4645599d51d652e707c0b717b/etaHEN-2.0b.bin",
         version: "2.0b",
         toPort: 9021
     },
     {
-        displayTitle: "ps5-kstuff",
-        description: "FPKG enabler",
+        displayTitle: "ONLY KSTUFF V1.3 ",
+        description: "FPKG PS4",
         fileName: "kstuff.elf",
         author: "sleirsgoevy, john-tornblom, EchoStretch, buzzer-re, BestPig, LightningMods, zecoxao",
         projectSource: "https://github.com/EchoStretch/kstuff",
