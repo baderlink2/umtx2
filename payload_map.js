@@ -34,13 +34,13 @@ const payload_map = [
     // but on 3.xx-4.xx it only shows in kernel exploit mode since it needs the 9020 elf loader for kstuff
     {
         displayTitle: "Etahen+Kstuff NEW last",
-        description: "For All 3.xx-5.xx OFFLINE",
+        description: "For All 3.xx-4.xx OFFLINE",
         fileName: "etahen5xx.bin",
         author: "LightningMods Date 30-03-2025",
         projectSource: "https://github.com/LightningMods/etaHEN",
         binarySource: "https://github.com/LightningMods/etaHEN/releases/download/1.9b/etaHEN.bin",
         version: "2.0b",
-        supportedFirmwares: ["3.", "4.", "5."],
+        supportedFirmwares: ["3.", "4."]
         toPort: 9021
     },
     {
@@ -98,13 +98,13 @@ const payload_map = [
 		    toPort: 9021
     },
     {
-        displayTitle: "Etahen+Kstuff NEW last",
-        description: "For All 3.xx-5.xx OFFLINE",
-        fileName: "etahen5xx.bin",
-        author: "LightningMods Date 30-03-2025",
+        displayTitle: "KSTUFF V1.3",
+        description: "FPKG PS4",
+        fileName: "kstuff.elf",
+        author: "V1.3",
         projectSource: "https://github.com/LightningMods/etaHEN",
         binarySource: "https://github.com/LightningMods/etaHEN/releases/download/1.9b/etaHEN.bin",
-        version: "2.0b",
+        version: "",
         supportedFirmwares: ["3.", "4.", "5."],
         toPort: 9021
     },
