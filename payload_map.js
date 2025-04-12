@@ -35,7 +35,7 @@ const payload_map = [
     {
         displayTitle: "Etahen+Kstuff NEW Last",
         description: "For 3.XX-4.XX",
-        fileName: "etaHEN.bin",
+        fileName: "etahen550.bin",
         author: "LightningMods Date 30-03-2025",
         projectSource: "https://github.com/LightningMods/etaHEN",
         binarySource: "https://github.com/LightningMods/etaHEN/releases/download/1.9b/etaHEN.bin",
@@ -45,7 +45,7 @@ const payload_map = [
     {
         displayTitle: "Etahen+Kstuff NEW Last",
         description: "For 1.xx-2.xx",
-        fileName: "etaHEN.bin",
+        fileName: "etahen550.bin",
         author: "LightningMods Date 30-03-2025",
         projectSource: "https://github.com/LightningMods/etaHEN",
         binarySource: "https://github.com/LightningMods/etaHEN/releases/download/1.9b/etaHEN.bin",
