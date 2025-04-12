@@ -31,8 +31,8 @@ const payload_map = [
     //     supportedFirmwares: ["1.", "2.", "3.", "4.", "5."]
     // },
     {
-        displayTitle: "ETAHEN+KSTUFF ",
-        description: "FOR 1.XXTo 5.XX",
+        displayTitle: "ETAHEN+KSTUFF LAST",
+        description: "FOR 1.XX TO 5.XX",
         fileName: "etaHEN.bin",
         author: "LightningMods Date 30-03-2025",
         projectSource: "https://github.com/etaHEN/etaHEN",
@@ -41,7 +41,7 @@ const payload_map = [
         toPort: 9021
     },
     {
-        displayTitle: "ONLY KSTUFF V1.3 ",
+        displayTitle: "ONLY KSTUFF V1.3 LAST",
         description: "FPKG PS4",
         fileName: "kstuff.elf",
         author: "sleirsgoevy, john-tornblom, EchoStretch, buzzer-re, BestPig, LightningMods, zecoxao",
