@@ -98,14 +98,14 @@ const payload_map = [
 		    toPort: 9021
     },
     {
-        displayTitle: "KSTUFF V1.3",
-        description: "FPKG PS4",
-        fileName: "kstuff.elf",
-        author: "V1.3",
+        displayTitle: "Etahen+Kstuff NEW last",
+        description: "For All 3.xx-4.xx OFFLINE",
+        fileName: "etahen5xx.bin",
+        author: "LightningMods Date 30-03-2025",
         projectSource: "https://github.com/LightningMods/etaHEN",
         binarySource: "https://github.com/LightningMods/etaHEN/releases/download/1.9b/etaHEN.bin",
-        version: "",
-        supportedFirmwares: ["3.", "4.", "5."],
+        version: "2.0b",
+        supportedFirmwares: ["1.", "2.", "3.", "4.", "5."]
         toPort: 9021
     },
     {
