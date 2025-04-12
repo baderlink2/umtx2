@@ -34,7 +34,7 @@ const payload_map = [
     // but on 3.xx-4.xx it only shows in kernel exploit mode since it needs the 9020 elf loader for kstuff
     {
         displayTitle: "Etahen+Kstuff NEW Last",
-        description: "For 1.XX-4.XX",
+        description: "For 1.XX-4.XX ONLINE",
         fileName: "etaHEN.bin",
         author: "LightningMods Date 30-03-2025",
         projectSource: "https://github.com/LightningMods/etaHEN",
@@ -98,7 +98,7 @@ const payload_map = [
     },
     {
         displayTitle: "Etahen+Kstuff NEW last",
-        description: "For 5.00-5.02",
+        description: "For All 1.xx-5.xx OFFLINE",
         fileName: "etahen5xx.bin",
         author: "LightningMods Date 30-03-2025",
         projectSource: "https://github.com/LightningMods/etaHEN",
