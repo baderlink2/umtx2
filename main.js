@@ -68,19 +68,6 @@ let nogc = [];
 
 let worker = new Worker("rop_slave.js");
 
-//Make sure worker is alive?
-async function wait_for_worker() {
-    let p1 = await new Promise((resolve) => {
-        const channel = new MessageChannel();
-        channel.port1.onmessage = () => {
-            channel.port1.close();
-            resolve(1);
-        }
-        worker.postMessage(0, [channel.port2]);
-    });
-    return p1;
-}
-
 /**
  * @param {UserlandRW|WebkitPrimitives} p 
  * @param {int64} buf 
@@ -128,7 +115,7 @@ function find_worker(p, libKernelBase) {
 /**
  * @enum {number}
  */
-const LogLevel = {
+var LogLevel = {
     DEBUG: 0,
     INFO: 1,
     LOG: 2,
@@ -136,7 +123,7 @@ const LogLevel = {
     ERROR: 4,
     SUCCESS: 5,
 
-    FLAG_TEMP: 0x1000,
+    FLAG_TEMP: 0x1000
 };
 
 let consoleElem = null;
@@ -162,6 +149,8 @@ function log(string, level) {
         return;
     } else if (isTemp) {
         lastLogIsTemp = true;
+    } else {
+        lastLogIsTemp = false;
     }
 
     let logElem = document.createElement("div");
@@ -311,15 +300,14 @@ async function prepare(p) {
 
     // Make sure worker is alive?
     async function wait_for_worker() {
-        let p1 = await new Promise((resolve) => {
-            const channel = new MessageChannel();
-            channel.port1.onmessage = () => {
-                channel.port1.close();
+
+        return new Promise((resolve) => {
+            worker.onmessage = function (e) {
                 resolve(1);
             }
-            worker.postMessage(0, [channel.port2]);
+            worker.postMessage(0);
         });
-        return p1;
+
     }
 
     let worker = new Worker("rop_slave.js");
@@ -355,14 +343,12 @@ async function prepare(p) {
         p.write8(stack_pointer_ptr, chain.stack_entry_point);
 
         let p1 = await new Promise((resolve) => {
-            const channel = new MessageChannel();
-            channel.port1.onmessage = () => {
-                channel.port1.close();
+            worker.onmessage = function (e) {
                 resolve(1);
             }
-            worker.postMessage(0, [channel.port2]);
+            worker.postMessage(0);
         });
-        if (p1 === 0) {
+        if (p1 == 0) {
             throw new Error("The rop thread ran away. ");
         }
     }
@@ -548,9 +534,6 @@ async function main(userlandRW, wkOnly = false) {
         } else {
             throw new Error(`Unsupported backing array type. BYTES_PER_ELEMENT: ${elf_store.backing.BYTES_PER_ELEMENT}`);
         }
-
-        // zero out elf_store.backing
-        elf_store.backing.fill(0);
 
         elf_store.backing.set(byteArray);
         return byteArray.byteLength;
