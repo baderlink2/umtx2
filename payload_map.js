@@ -33,7 +33,7 @@ const payload_map = [
     {
         displayTitle: "ETAHEN+KSTUFF 2.1B",
         description: "FOR 1.XX TO 5.XX",
-        fileName: "etaHEN.bin",
+        fileName: "etaHEN.elf",
         author: "LightningMods Date 04-20-2025",
         projectSource: "https://github.com/etaHEN/etaHEN",
         binarySource: "https://github.com/etaHEN/etaHEN/blob/360e7c0d2dddf4f4645599d51d652e707c0b717b/etaHEN-2.0b.bin",
