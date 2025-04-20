@@ -46,7 +46,7 @@ payloads\elfldr.elf
 payloads\etaHEN.bin
 payloads\gdbsrv.elf
 payloads\klogsrv.elf
-payloads\kstuff.elf
+payloads\etaHEN20b.bin
 payloads\libhijacker-game-patch.v1.160.elf
 payloads\ps5-versions.elf
 payloads\ps5debug_dizz.elf
