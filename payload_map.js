@@ -41,13 +41,13 @@ const payload_map = [
         toPort: 9021
     },
     {
-        displayTitle: "ONLY KSTUFF V1.4 LAST",
-        description: "FPKG PS4",
-        fileName: "kstuff.elf",
-        author: "sleirsgoevy, john-tornblom, EchoStretch, buzzer-re, BestPig, LightningMods, zecoxao",
+        displayTitle: "ETAHEN+KSTUFF 2.0B",
+        description: "FOR 1.XX TO 5.XX",
+        fileName: "etaHEN20b.bin",
+        author: "LightningMods Date 04-20-2025",
         projectSource: "https://github.com/EchoStretch/kstuff",
         binarySource: "https://github.com/EchoStretch/kstuff/releases/download/v1.3/kstuff.elf",
-        version: "1.3",
+        version: "2.0b",
         supportedFirmwares: ["3.", "4.", "5."],
         toPort: 9021
     },
