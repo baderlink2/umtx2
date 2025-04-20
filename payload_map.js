@@ -31,7 +31,7 @@ const payload_map = [
     //     supportedFirmwares: ["1.", "2.", "3.", "4.", "5."]
     // },
     {
-        displayTitle: "ETAHEN+KSTUFF 2.1B",
+        displayTitle: "ETAHEN+KSTUFF 2.1B BETA",
         description: "FOR 1.XX TO 5.XX",
         fileName: "etaHEN.bin",
         author: "LightningMods Date 04-20-2025",
@@ -41,7 +41,7 @@ const payload_map = [
         toPort: 9021
     },
     {
-        displayTitle: "ETAHEN+KSTUFF 2.0B",
+        displayTitle: "ETAHEN+KSTUFF 2.0B Stable",
         description: "FOR 1.XX TO 5.XX",
         fileName: "etaHEN20b.bin",
         author: "LightningMods Date 04-20-2025",
