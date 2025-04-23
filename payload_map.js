@@ -22,7 +22,7 @@ const CUSTOM_ACTION_APPCACHE_REMOVE = "appcache-remove";
 const payload_map = [
     // { // auto-loaded
     //     displayTitle: "PS5 Payload ELF Loader",
-    //     description: "Uses port 9020. Persistent network elf loader",
+    //     description: "Uses port 9021. Persistent network elf loader",
     //     fileName: "elfldr.elf",
     //     author: "john-tornblom",
     //     projectSource: "https://github.com/ps5-payload-dev/elfldr",
@@ -49,7 +49,7 @@ const payload_map = [
         binarySource: "https://github.com/EchoStretch/kstuff/releases/download/v1.3/kstuff.elf",
         version: "1.3",
         supportedFirmwares: ["3.", "4.", "5."],
-        toPort: 9020
+        toPort: 9021
     },
     {
         displayTitle: "Byepervisor HEN",
