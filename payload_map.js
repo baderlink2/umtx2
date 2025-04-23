@@ -22,7 +22,7 @@ const CUSTOM_ACTION_APPCACHE_REMOVE = "appcache-remove";
 const payload_map = [
     // { // auto-loaded
     //     displayTitle: "PS5 Payload ELF Loader",
-    //     description: "Uses port 9021. Persistent network elf loader",
+    //     description: "Uses port 9020. Persistent network elf loader",
     //     fileName: "elfldr.elf",
     //     author: "john-tornblom",
     //     projectSource: "https://github.com/ps5-payload-dev/elfldr",
