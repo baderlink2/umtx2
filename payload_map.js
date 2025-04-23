@@ -41,7 +41,7 @@ const payload_map = [
         toPort: 9021
     },
     {
-        displayTitle: "POC BETA TEST EXOLOIT",
+        displayTitle: "Only Kstuff V1.4",
         description: "FPKG PS4",
         fileName: "kstuff.elf",
         author: "sleirsgoevy, john-tornblom, EchoStretch, buzzer-re, BestPig, LightningMods, zecoxao",
