@@ -42,9 +42,9 @@ const payload_map = [
     },
     {
         displayTitle: "Only Kstuff Fix Bypass",
-        description: "FPKG PS4 Unlock",
+        description: "FPKG PS4 Unlocked",
         fileName: "kstuff.elf",
-        author: "sleirsgoevy, john-tornblom, EchoStretch, buzzer-re, BestPig, LightningMods, zecoxao",
+        author: "FOR 1.XX TO 5.XX",
         projectSource: "https://github.com/EchoStretch/kstuff",
         binarySource: "https://github.com/EchoStretch/kstuff/releases/download/v1.3/kstuff.elf",
         version: "1.4",
