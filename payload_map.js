@@ -31,7 +31,7 @@ const payload_map = [
     //     supportedFirmwares: ["1.", "2.", "3.", "4.", "5."]
     // },
     {
-        displayTitle: "ETAHEN+KSTUFF LAST",
+        displayTitle: "ETAHEN+KSTUFF 2.1B",
         description: "FOR 1.XX TO 5.XX",
         fileName: "etaHEN.bin",
         author: "LightningMods Date 30-03-2025",
