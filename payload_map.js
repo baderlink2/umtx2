@@ -41,10 +41,10 @@ const payload_map = [
         toPort: 9021
     },
     {
-        displayTitle: "Only Kstuff Fix Bypass",
+        displayTitle: "Only Kstuff Fix Last Version",
         description: "FPKG PS4 Unlocked",
         fileName: "kstuff.elf",
-        author: "FOR 1.XX TO 5.XX",
+        author: "FOR 1.XX TO 7.XX",
         projectSource: "https://github.com/EchoStretch/kstuff",
         binarySource: "https://github.com/EchoStretch/kstuff/releases/download/v1.3/kstuff.elf",
         version: "1.4",
