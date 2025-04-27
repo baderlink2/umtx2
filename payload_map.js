@@ -73,6 +73,16 @@ const payload_map = [
         version: "0.11.3",
         toPort: 9021
     },
+    {
+        displayTitle: "websrv",
+        description: "Custom homebrew loader. Runs on port 8080.",
+        fileName: "websrv.elf",
+        author: "john-tornblom",
+        projectSource: "https://github.com/ps5-payload-dev/websrv",
+        binarySource: "https://github.com/ps5-payload-dev/websrv/actions/runs/14318408868",
+        version: "0.22",
+        toPort: 9021
+    },
     
     {
         // https://github.com/Storm21CH/PS5_Browser_appCache_remove
