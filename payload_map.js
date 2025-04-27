@@ -31,20 +31,20 @@ const payload_map = [
     //     supportedFirmwares: ["1.", "2.", "3.", "4.", "5."]
     // },
     {
-        displayTitle: "ETAHEN+KSTUFF 2.0B",
+        displayTitle: "ETAHEN+KSTUFF 2.1B",
         description: "FOR 1.XX TO 5.XX",
         fileName: "etaHEN.bin",
-        author: "SOON UPGRADE TO 2.1B",
+        author: "Last UPDATE 27-04-2025",
         projectSource: "https://github.com/etaHEN/etaHEN",
         binarySource: "https://github.com/etaHEN/etaHEN/blob/360e7c0d2dddf4f4645599d51d652e707c0b717b/etaHEN-2.0b.bin",
         version: "2.0b",
         toPort: 9021
     },
     {
-        displayTitle: "Only Kstuff V1.3",
+        displayTitle: "Only Kstuff V1.4",
         description: "FPKG PS4 Unlocked",
         fileName: "kstuff.elf",
-        author: "FOR 1.XX TO 5.XX",
+        author: "Last UPDATE 27-04-2025",
         projectSource: "https://github.com/EchoStretch/kstuff",
         binarySource: "https://github.com/EchoStretch/kstuff/releases/download/v1.3/kstuff.elf",
         version: "1.3",
