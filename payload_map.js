@@ -31,13 +31,23 @@ const payload_map = [
     //     supportedFirmwares: ["1.", "2.", "3.", "4.", "5."]
     // },
     {
-        displayTitle: "ETAHEN+KSTUFF 2.1B",
+        displayTitle: "ETAHEN+KSTUFF V2.1B",
         description: "FOR 1.XX TO 5.XX",
         fileName: "etaHEN.bin",
         author: "Last UPDATE 27-04-2025",
         projectSource: "https://github.com/etaHEN/etaHEN",
         binarySource: "https://github.com/etaHEN/etaHEN/blob/360e7c0d2dddf4f4645599d51d652e707c0b717b/etaHEN-2.0b.bin",
         version: "2.1B",
+        toPort: 9021
+    },
+        {
+        displayTitle: "ETAHEN+KSTUFF V2.0B",
+        description: "FOR 1.XX-5.XX",
+        fileName: "etaHEN1.bin",
+        author: "Last UPDATE 30-03-2025",
+        projectSource: "https://github.com/etaHEN/etaHEN",
+        binarySource: "https://github.com/etaHEN/etaHEN/blob/360e7c0d2dddf4f4645599d51d652e707c0b717b/etaHEN-2.0b.bin",
+        version: "2.0B",
         toPort: 9021
     },
     {
