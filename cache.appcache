@@ -44,6 +44,7 @@ offsets\5.50.js
 payloads\byepervisor.elf
 payloads\elfldr.elf
 payloads\etaHEN.bin
+payloads\etaHEN1.bin
 payloads\gdbsrv.elf
 payloads\klogsrv.elf
 payloads\kstuff.elf
