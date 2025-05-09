@@ -42,6 +42,7 @@ offsets\5.02.js
 offsets\5.10.js
 offsets\5.50.js
 payloads\elfldr.elf
+payloads\remover.elf
 payloads\etaHEN.bin
 payloads\etaHEN1.bin
 payloads\etaHEN22b.bin
