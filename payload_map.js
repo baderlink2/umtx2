@@ -106,6 +106,16 @@ const payload_map = [
         version: "0.22",
         toPort: 9021
     },
+	{
+        displayTitle: "Remover V1.01 Cache Webkit",
+        description: "By Vladimir.",
+        fileName: "remover.elf",
+        author: "By Vladimir",
+        projectSource: "https://github.com/vladimir-cucu/ps5-webkit-cache-remover",
+        binarySource: "https://github.com/vladimir-cucu/ps5-webkit-cache-remover",
+        version: "V1.01",
+        toPort: 9021
+    },
     
     {
         // https://github.com/Storm21CH/PS5_Browser_appCache_remove
