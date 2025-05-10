@@ -87,6 +87,17 @@ const payload_map = [
 
     
     {
+        displayTitle: "App_title By Master",
+        description: "Tank You Master",
+        fileName: "app_title.elf",
+        author: "Creat By Master",
+        projectSource: "https://github.com/MasterPS0/PS5-appls-tital/releases",
+        binarySource: "https://github.com/MasterPS0/PS5-appls-tital/releases",
+        version: "V1.0",
+        toPort: 9021
+    },
+
+	    {
         displayTitle: "ftpsrv",
         description: "FTP server. Runs on port 2121.",
         fileName: "ftpsrv.elf",
