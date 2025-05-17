@@ -74,13 +74,13 @@ const payload_map = [
         toPort: 9021
     },
 	{
-        displayTitle: "Kstuff Toggle ON-OFF",
+        displayTitle: "Kstuff Toggle V.02 ON-OFF",
         description: "Paus Manual Kstuff",
         fileName: "kstufftoglle.elf",
-        author: "Last UPDATE 30-04-2025",
+        author: "Last UPDATE 17-05-2025",
         projectSource: "https://github.com/EchoStretch/kstuff",
         binarySource: "https://github.com/EchoStretch/kstuff/releases/download/v1.3/kstuff.elf",
-        version: "1.4",
+        version: "0.2",
         supportedFirmwares: ["3.", "4.", "5."],
         toPort: 9021
     },
