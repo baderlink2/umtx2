@@ -53,13 +53,13 @@ const payload_map = [
 
 	
         {
-        displayTitle: "ETAHEN+KSTUFF V2.0B",
-        description: "FOR 1.XX-5.XX",
-        fileName: "etaHEN1.bin",
-        author: "Last UPDATE 30-03-2025",
+        displayTitle: "FlatzHEN V2",
+        description: "FOR 1.XX-7.XX",
+        fileName: "etaHEN1.bin_OLD",
+        author: "Date Release XX-XX-2025",
         projectSource: "https://github.com/etaHEN/etaHEN",
         binarySource: "https://github.com/etaHEN/etaHEN/blob/360e7c0d2dddf4f4645599d51d652e707c0b717b/etaHEN-2.0b.bin",
-        version: "2.0B",
+        version: "SOON",
         toPort: 9021
     },
     {
