@@ -31,10 +31,10 @@ const payload_map = [
     //     supportedFirmwares: ["1.", "2.", "3.", "4.", "5."]
     // },
     {
-        displayTitle: "ETAHEN V2.2B BETA by Zexocao",
+        displayTitle: "ETAHEN V2.2B",
         description: "FOR 1.XX TO 5.XX",
         fileName: "etaHEN22b.bin",
-        author: "Last UPDATE 07-05-2025",
+        author: "Date UPDATE 31-05-2025",
         projectSource: "https://github.com/etaHEN/etaHEN",
         binarySource: "https://github.com/etaHEN/etaHEN/blob/360e7c0d2dddf4f4645599d51d652e707c0b717b/etaHEN-2.0b.bin",
         version: "2.2B",
