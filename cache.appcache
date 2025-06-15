@@ -47,7 +47,7 @@ payloads\app_title.elf
 payloads\etaHEN.bin
 payloads\etaHEN22b.bin
 payloads\kstuff.elf
-payloads\kstuffnew.elf
+payloads\test.elf
 payloads\kstufftoglle.elf
 payloads\websrv.elf
 psfree\alert.js
