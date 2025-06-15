@@ -53,10 +53,10 @@ const payload_map = [
 
 	
         {
-        displayTitle: "FlatzHEN V2",
+        displayTitle: "ESCHOSTRECH TEST KSTUFF",
         description: "FOR 1.XX-7.XX",
         fileName: "kstuffnew.elf",
-        author: "Date Release XX-XX-2025",
+        author: "BETA TEST TANK YOU ESCHOSTRECH",
         projectSource: "https://github.com/etaHEN/etaHEN",
         binarySource: "https://github.com/etaHEN/etaHEN/blob/360e7c0d2dddf4f4645599d51d652e707c0b717b/etaHEN-2.0b.bin",
         version: "SOON",
