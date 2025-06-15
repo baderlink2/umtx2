@@ -55,7 +55,7 @@ const payload_map = [
         {
         displayTitle: "FlatzHEN V2",
         description: "FOR 1.XX-7.XX",
-        fileName: "https://www.youtube.com/watch?v=6lqqiZgDDVA&ab_channel=TECHCityOfficial",
+        fileName: "kstuffnew.bin",
         author: "Date Release XX-XX-2025",
         projectSource: "https://github.com/etaHEN/etaHEN",
         binarySource: "https://github.com/etaHEN/etaHEN/blob/360e7c0d2dddf4f4645599d51d652e707c0b717b/etaHEN-2.0b.bin",
