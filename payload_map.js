@@ -63,13 +63,13 @@ const payload_map = [
         toPort: 9021
     },
     {
-        displayTitle: "ASLR Kstuff V1.5",
-        description: "FPKG PS4 With VR2 Bypass",
-        fileName: "kstuff.elf",
-        author: "3.xx to 7.xx 03-05-2025",
+        displayTitle: "DUMP GAME CD PS5 PPSAXXXXX",
+        description: "EASY DUMP CD TO PPSAXXXXXX TANK ECHOSTRECH",
+        fileName: "dumpgame.elf",
+        author: "Seported 1.xx to high FW",
         projectSource: "https://github.com/EchoStretch/kstuff",
         binarySource: "https://github.com/EchoStretch/kstuff/releases/download/v1.3/kstuff.elf",
-        version: "1.5",
+        version: "1.0",
         supportedFirmwares: ["3.", "4.", "5."],
         toPort: 9021
     },
@@ -141,6 +141,7 @@ const payload_map = [
     }
 
 ];
+
 
 
 
