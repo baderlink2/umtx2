@@ -64,7 +64,7 @@ const payload_map = [
     },
     {
         displayTitle: "DUMP GAME CD PS5 PPSAXXXXX",
-        description: "EASY DUMP CD TO PPSAXXXXXX TANK ECHOSTRECH",
+        description: "EASY DUMP CD TO PPSAXXXXXX",
         fileName: "dumpgame.elf",
         author: "Seported 1.xx to high FW",
         projectSource: "https://github.com/EchoStretch/kstuff",
@@ -141,6 +141,7 @@ const payload_map = [
     }
 
 ];
+
 
 
 
