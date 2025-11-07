@@ -63,10 +63,10 @@ const payload_map = [
         toPort: 9021
     },
     {
-        displayTitle: "DUMP GAME CD PS5 PPSAXXXXX",
-        description: "EASY DUMP CD TO PPSAXXXXXX",
+        displayTitle: "PS5 DECREPTED SYSTEM",
+        description: "By ZEXOCAO",
         fileName: "dumpgame.elf",
-        author: "Seported 1.xx to high FW",
+        author: "Seported 1.xx to 10.01",
         projectSource: "https://github.com/EchoStretch/kstuff",
         binarySource: "https://github.com/EchoStretch/kstuff/releases/download/v1.3/kstuff.elf",
         version: "1.0",
@@ -141,6 +141,7 @@ const payload_map = [
     }
 
 ];
+
 
 
 
