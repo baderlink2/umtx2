@@ -31,20 +31,20 @@ const payload_map = [
     //     supportedFirmwares: ["1.", "2.", "3.", "4.", "5."]
     // },
     {
-        displayTitle: "ETAHEN 2.4B",
-        description: "FOR 1.XX TO 9.60",
-        fileName: "etaHEN22b.bin",
-        author: "Date UPDATE 2-12-2025",
+        displayTitle: "ETAHEN 2.5B",
+        description: "FOR 1.XX TO 10.01",
+        fileName: "etaHEN.bin",
+        author: "Date UPDATE 25-12-2025",
         projectSource: "https://github.com/etaHEN/etaHEN",
         binarySource: "https://github.com/etaHEN/etaHEN/blob/360e7c0d2dddf4f4645599d51d652e707c0b717b/etaHEN-2.0b.bin",
         version: "2.4B",
         toPort: 9021
     },
     {
-        displayTitle: "ETAHEN V2.3B",
-        description: "FOR 1.XX TO 9.60",
-        fileName: "etaHEN.bin",
-        author: "Last UPDATE 11-09-2025",
+        displayTitle: "ETAHEN V2.4B",
+        description: "FOR 1.XX TO 10.1",
+        fileName: "etaHEN22b.bin",
+        author: "Last UPDATE 02-12-2025",
         projectSource: "https://github.com/etaHEN/etaHEN",
         binarySource: "https://github.com/etaHEN/etaHEN/blob/360e7c0d2dddf4f4645599d51d652e707c0b717b/etaHEN-2.0b.bin",
         version: "2.3B",
@@ -141,6 +141,7 @@ const payload_map = [
     }
 
 ];
+
 
 
 
