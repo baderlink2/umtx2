@@ -63,9 +63,9 @@ const payload_map = [
         toPort: 9021
     },
     {
-        displayTitle: "PS5 DECREPTED SYSTEM",
-        description: "By ZEXOCAO",
-        fileName: "dumpgame.elf",
+        displayTitle: "AUTO LOADER TO /data Y2JB ETAHEN 2.5B",
+        description: "By MASTER",
+        fileName: "autoloader.elf",
         author: "Seported 1.xx to 10.01",
         projectSource: "https://github.com/EchoStretch/kstuff",
         binarySource: "https://github.com/EchoStretch/kstuff/releases/download/v1.3/kstuff.elf",
@@ -141,6 +141,7 @@ const payload_map = [
     }
 
 ];
+
 
 
 
