@@ -65,7 +65,7 @@ const payload_map = [
     {
         displayTitle: "AUTO LOADER TO /data Y2JB ETAHEN 2.5B",
         description: "By MASTER",
-        fileName: "autoloader.elf",
+        fileName: "autoloader.bin",
         author: "Seported 1.xx to 10.01",
         projectSource: "https://github.com/EchoStretch/kstuff",
         binarySource: "https://github.com/EchoStretch/kstuff/releases/download/v1.3/kstuff.elf",
@@ -141,6 +141,7 @@ const payload_map = [
     }
 
 ];
+
 
 
 
