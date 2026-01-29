@@ -63,10 +63,10 @@ const payload_map = [
         toPort: 9021
     },
     {
-        displayTitle: "Backport 4.xx 5.xx",
-        description: "By MASTER",
-        fileName: "autoloader.bin",
-        author: "Seported 1.xx to 10.01",
+        displayTitle: "Backport 4.xx 5.xx V1.0",
+        description: "By BESTPUG V1.0",
+        fileName: "autoloader.elf",
+        author: "Seported 4.XX To 7.XX",
         projectSource: "https://github.com/EchoStretch/kstuff",
         binarySource: "https://github.com/EchoStretch/kstuff/releases/download/v1.3/kstuff.elf",
         version: "1.0",
@@ -141,6 +141,7 @@ const payload_map = [
     }
 
 ];
+
 
 
 
