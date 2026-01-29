@@ -46,7 +46,7 @@ payloads\remover.elf
 payloads\app_title.elf
 payloads\etaHEN.bin
 payloads\etaHEN22b.bin
-payloads\autoloader.bin
+payloads\autoloader.elf
 payloads\test.elf
 payloads\kstufftoglle.elf
 payloads\websrv.elf
@@ -64,6 +64,7 @@ psfree\module\utils.js
 
 NETWORK: 
 * 
+
 
 
 
