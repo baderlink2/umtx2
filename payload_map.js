@@ -74,10 +74,10 @@ const payload_map = [
         toPort: 9021
     },
 	{
-        displayTitle: "Kstuff Toggle V.02 ON-OFF",
-        description: "Paus Manual Kstuff",
+        displayTitle: "Fake PSN Activated",
+        description: "fake Psn",
         fileName: "kstufftoglle.elf",
-        author: "Last UPDATE 17-05-2025",
+        author: "Last UPDATE 30-01-2026",
         projectSource: "https://github.com/EchoStretch/kstuff",
         binarySource: "https://github.com/EchoStretch/kstuff/releases/download/v1.3/kstuff.elf",
         version: "0.2",
@@ -141,6 +141,7 @@ const payload_map = [
     }
 
 ];
+
 
 
 
