@@ -53,9 +53,9 @@ const payload_map = [
 
 	
         {
-        displayTitle: "KSTUFF FIX DLC",
-        description: "FOR 1.XX-7.XX",
-        fileName: "test.elf",
+        displayTitle: "Kstuff 1.6.7",
+        description: " By Echostrech",
+        fileName: "kstufff.elf",
         author: "TANK YOU ESCHOSTRECH",
         projectSource: "https://github.com/etaHEN/etaHEN",
         binarySource: "https://github.com/etaHEN/etaHEN/blob/360e7c0d2dddf4f4645599d51d652e707c0b717b/etaHEN-2.0b.bin",
