@@ -74,10 +74,10 @@ const payload_map = [
         toPort: 9021
     },
 	{
-        displayTitle: "Fake PSN Activated",
-        description: "fake Psn",
-        fileName: "kstufftoglle.elf",
-        author: "Last UPDATE 30-01-2026",
+        displayTitle: "Linux 5.50",
+        description: "Thank You TheFlow For Big Realese Hv",
+        fileName: "linux.elf",
+        author: "Last UPDATE 16-05-2026",
         projectSource: "https://github.com/EchoStretch/kstuff",
         binarySource: "https://github.com/EchoStretch/kstuff/releases/download/v1.3/kstuff.elf",
         version: "0.2",
