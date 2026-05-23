@@ -44,7 +44,7 @@ offsets\5.50.js
 payloads\elfldr.elf
 payloads\remover.elf
 payloads\linux.elf
-payloads\app_title.elf
+payloads\hypervisor.elf
 payloads\etaHEN.bin
 payloads\hen.bin
 payloads\autoloader.elf
