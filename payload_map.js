@@ -87,10 +87,10 @@ const payload_map = [
 
     
     {
-        displayTitle: "App_title By Master",
-        description: "Tank You Master",
-        fileName: "app_title.elf",
-        author: "Creat By Master",
+        displayTitle: "Hypervisor 5.xx",
+        description: "Tank You Jordi And TheFlow",
+        fileName: "hypervisor.elf",
+        author:"FOR 5.XX",
         projectSource: "https://github.com/MasterPS0/PS5-appls-tital/releases",
         binarySource: "https://github.com/MasterPS0/PS5-appls-tital/releases",
         version: "V1.0",
