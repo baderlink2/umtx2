@@ -48,7 +48,7 @@ payloads\hypervisor.elf
 payloads\etaHEN.bin
 payloads\hen.bin
 payloads\autoloader.elf
-payloads\kstufff.elf
+payloads\autoloaderr.elf
 payloads\kstufftoglle.elf
 payloads\websrv.elf
 psfree\alert.js
