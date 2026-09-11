@@ -53,10 +53,10 @@ const payload_map = [
 
 	
         {
-        displayTitle: "Kstuff 1.6.7",
-        description: " By Echostrech",
-        fileName: "kstufff.elf",
-        author: "TANK YOU ESCHOSTRECH",
+        displayTitle: "Payloads Manager Auto",
+        description: " Autoloader",
+        fileName: "autoloaderr.elf",
+        author: "TANK YOU Devs",
         projectSource: "https://github.com/etaHEN/etaHEN",
         binarySource: "https://github.com/etaHEN/etaHEN/blob/360e7c0d2dddf4f4645599d51d652e707c0b717b/etaHEN-2.0b.bin",
         version: "SOON",
